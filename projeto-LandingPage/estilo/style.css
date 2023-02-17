@@ -76,3 +76,15 @@ div#img {
     height: 100%;
 }
 
+article {
+    padding: 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article h1 {
+    margin-bottom: 15px;
+}
+
