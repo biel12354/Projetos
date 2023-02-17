@@ -8,11 +8,16 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
-main {
+body {
+    width: 100%;
+    background-color: #2090b6;
+}
+
+header {
     position: relative;
     background-image: url("https://images.pexels.com/photos/6572421/pexels-photo-6572421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
@@ -20,10 +25,10 @@ main {
     background-position: left center;
     background-size: cover;
     height: 350px;
-    width: 100vw;
+    width: 100%;
 }
 
-main > section {
+header > section {
     position: absolute;
     top: 140px;
     color: white;
@@ -34,7 +39,7 @@ main > section {
     transform: translateX(-50%);
 }
 
-main > section p {
+header > section p {
     background-color: rgba(0, 0, 0, 0.473);
     margin: 10px 0px 10px 0px;
     padding: 10px;
@@ -47,8 +52,8 @@ section > h1 {
     text-align: center;
 }
 
-main > section > input[type="button"]{
-    width: 100%;
+header > section > input[type="button"]{
+    width: 98%;
     height: 40px;
     background-image: linear-gradient(to top, #0861dd, #29b0df);
     color: white;
@@ -64,7 +69,6 @@ span {
 
 div#img > img {
     width: 113px;
-    max-width: 120px;
 }
 
 div#img {
@@ -77,14 +81,19 @@ div#img {
 }
 
 article {
+    display: block;
+    background-color: white;
+    margin: auto;
     padding: 10px;
+    width: 90vw;
 }
 
 article p {
-    margin-bottom: 10px;
+    text-align: justify;
+    padding-bottom: 10px;
 }
 
 article h1 {
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
