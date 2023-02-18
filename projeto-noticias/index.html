@@ -155,9 +155,12 @@
         }
 
         function carregar(){
-            if (menu.style.maxHeight == "0px"){
-                menu.style.maxHeight = "100%"
+            if (window.innerWidth > 768){
+                if (menu.style.maxHeight == "0px"){
+                    menu.style.maxHeight = "100%"
+                }
             }
+                
         }
     </script>
 </body>
